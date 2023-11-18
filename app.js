@@ -22,7 +22,7 @@ const flowSecundario = addKeyword(['gracias', 'siguiente']).addAnswer('de nada')
 const flow1 = addKeyword(['1']).addAnswer(
     [
         'Las reglas del Cadáver Exquisito Infinito son:' ,,
-        '1 Asegúrate de que tengas activado el "texto predictivo" o "autocompletar"' 
+        '1 Asegúrate de que tengas activado el _texto predictivo_ o _autocompletar_'
         '2 💥🤖🦾Elige una palabra para empezar tu verso y continúalo utilizando las palabras sugeridas por el texto predictivo!',
         '¡El desafío es lograr algo de coherencia con tus elecciones!',, 
         '3 💡♾️📲Puedes escribir todas las veces que quieras',, 
