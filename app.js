@@ -21,15 +21,16 @@ const flowSecundario = addKeyword(['gracias', 'siguiente']).addAnswer('de nada')
 
 const flow1 = addKeyword(['1']).addAnswer(
     [
-        'Las reglas del Cadáver Exquisito Infinito son:' ,,
-        '1 Asegúrate de que tengas activado el _texto predictivo_ o _autocompletar_',,
-        '2💥🤖🦾Elige una palabra para empezar tu verso y continúalo utilizando las palabras sugeridas por el texto predictivo!',
-        '¡El desafío es lograr algo de coherencia con tus elecciones!',, 
-        '3 💡♾️📲Puedes escribir todas las veces que quieras',, 
-        '4 🔪❌😝 Si envías un mensaje que no es parte del juego serás eliminado del grupo',,  
-        'Ingresa al grupo de escritura pinchando el link:',
+        'Ingresa al *"Cadaver Exquisito Infinito"* pinchando el link:',
         '✨⬇️⬇️⬇️⬇️✨',
-        'https://chat.whatsapp.com/L7a26o6BXhSErBnPonWtq5'
+        'https://chat.whatsapp.com/L7a26o6BXhSErBnPonWtq5',,
+        '*Las instrucciones del grupo de escritura son:*' ,,
+        '*1)* Asegúrate de que tengas activado el _texto predictivo_ o _autocompletar_',,
+        '*2)* 💥🤖🦾Elige una palabra para empezar tu verso y continúalo utilizando las palabras sugeridas por el texto predictivo!',
+        '¡El desafío es lograr algo de coherencia con tus elecciones!',, 
+        '*3)* 💡♾️📲Puedes escribir todas las veces que quieras',, 
+        '*4)* 🔪❌😝 Si envías un mensaje que no es parte del juego serás eliminado del grupo',,  
+        
     
 ],
 null,
@@ -91,8 +92,8 @@ null,
 [flowSecundario]
 )
 
-const flowPrincipal = addKeyword(['hola', 'alo','Hola','Wena','buen día','oli','holi','oye'])
-    .addAnswer(['¡Hola! 🤖🙌 ¡Te damos la bienvenida a Poesía IA!',,    
+const flowPrincipal = addKeyword(['hola','día','días','ola','alo','qué','tal', '?',  'esto','quién', 'quien', 'que','Hola','Wena','buen día','oli','holi','oye', '!'])
+    .addAnswer(['*¡Hola! 🤖🙌 ¡Te damos la bienvenida a Poesía IA!*',,    
             '¿Qué quieres?',,
             '1️⃣  Jugar al Cadáver Exquisito Infinito',,
             '2️⃣  Obtener inspiración para un poema',,
