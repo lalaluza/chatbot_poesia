@@ -22,14 +22,15 @@ const flowSecundario = addKeyword(['gracias', 'siguiente']).addAnswer('de nada')
 const flow1 = addKeyword(['1']).addAnswer(
     [
         'Las reglas del Cadáver Exquisito Infinito son:' ,,
-         '1)💥🤖🦾Escribir versos utilizando SOLO las palabras que te ofrece el texto predictivo!', 
-        '(Por supuesto que puedes elegir la palabra de inicio 😜)',, 
-        '2) 💡♾️📲Puedes escribir todas las veces que quieras',, 
-        '3)🔪❌😝 Si envías un mensaje que no es parte del juego serás eliminado del grupo',,  
+        '1)Asegúrate de que tengas activado el "texto predictivo" o "autocompletar"' 
+        '2)💥🤖🦾Elige una palabra para empezar tu verso y continúalo utilizando las palabras sugeridas por el texto predictivo!',
+    '(¡El desafío es lograr algo de coherencia con tus elecciones!),, 
+        '3) 💡♾️📲Puedes escribir todas las veces que quieras',, 
+        '4)🔪❌😝 Si envías un mensaje que no es parte del juego serás eliminado del grupo',,  
         
-        'Ingresa pinchando el link:',
+        'Ingresa al grupo de escritura pinchando el link:',
         '✨⬇️⬇️⬇️⬇️✨',
-        'https://chat.whatsapp.com/BRJ5i9DqxY79Oi7vWmjMXR'
+        'https://chat.whatsapp.com/L7a26o6BXhSErBnPonWtq5'
     
 ],
 null,
@@ -39,10 +40,55 @@ null,
 
 const flow2 = addKeyword(['2']).addAnswer('Aquí tienes:', null, async (ctx, {flowDynamic}) => {
     let poems = [
-        'frase 1',
-        'frase 2',
-        'frase 3',
-        'frase 4'
+        '"Sobre la superficie mojada de esta mesa, que parece un campo de batalla,
+dos moscas hacen el amor"',
+    
+        '"No quiere que la quieran, ni la cuiden, pues se adiestró en el
+conocimiento de la selva y puede llegar a solas a casa de su abuela."',
+    
+        '"Bien puede el paisaje confundirse con sus elementos
+un mero montaje del ojo desde arriba
+la vera invención de interpretar la imagen"',
+    
+        '"estar aquí es estar en todas partes y si no es el fin
+es al menos el retorno al río o a algo que se le parece"',
+
+    '"ponerse tacones rojos y estirar las piernas por encima de la cabeza, como
+hacen en mi país,
+en mi país que también es triste, en mi país del que me fui sin que me echaran"',
+    
+
+'"Poema:   defensa primitiva del consciente"',
+
+
+'"Soy un toro asustado rogando una muleta
+Con ganas de embestir pero deseando la estocada"',
+
+
+'"el abecedario
+es para ella un rompecabezas incompleto
+porque la niña no ha olvidado toda esa música
+que aún circula por el aire que respiramos"',
+
+'"Sol ungido de cromato,
+cielo entintado en zafiro;
+guta por el que suspiro,
+cerúleo; don de arrebatos."',
+
+
+'"porque un pájaro gris vino una noche a buscarte,
+y se desangró por los ojos,
+porque le sostuviste la mirada,
+hasta que, ciego se azotó contra todo lo que podía trizar."',
+
+
+'"ella tiene ojos de casa sin cortinas
+y la sonrisa de aguarrás"',
+
+
+'"la niebla nos devora con su hospital tardío
+con su boca pintada donde perros y trenes vagan sin sentido"',
+    
     ]
 
     let randomIndex = Math.floor(Math.random() * poems.length);
@@ -50,7 +96,7 @@ const flow2 = addKeyword(['2']).addAnswer('Aquí tienes:', null, async (ctx, {fl
 })
 
 const flow3 = addKeyword(['3']).addAnswer(    [
-        'Te invitamos a visitar este link https://palabradepoeta.com/fip-2022/',
+        'Te invitamos a visitar este link https://palabradepoeta.com/fip-2023/programa-fip-2023/',
     ],
     null,
     null,
@@ -58,7 +104,7 @@ const flow3 = addKeyword(['3']).addAnswer(    [
 )
 
 const flow4 = addKeyword(['4']).addAnswer(    [
-    'Te invitamos a visitar este link https://palabradepoeta.com/fip-2022/poetas-2022/',
+    'Te invitamos a visitar este link https://palabradepoeta.com/fip-2023/poetas-2023/',
 ],
 null,
 null,
