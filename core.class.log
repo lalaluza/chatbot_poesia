@@ -1,0 +1,141 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '56930780722@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB05AA1C67F10750B5311',
+    participant: undefined
+  },
+  messageTimestamp: 1699765318,
+  pushName: 'Luzalem',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  from: '56930780722'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_bc0c41fa-c6f2-47c8-92bb-95457c96b15c',
+  keyword: 'key_4902f3fd-9b2c-4eb8-977a-fe891ae39653',
+  answer: '¡Hola! 🤖🙌 ¡Te damos la bienvenida a Poesía IA!\n' +
+    '\n' +
+    '¿Qué quieres?\n' +
+    '\n' +
+    '1️⃣  Jugar al Cadáver Exquisito Infinito\n' +
+    '\n' +
+    '2️⃣  Obtener inspiración para un poema\n' +
+    '\n' +
+    '3️⃣  Conocer la programación fip Santiago 2023\n' +
+    '\n' +
+    '4️⃣  Conocer a los poetas del festival',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a3a2bcdc4754d2487048d2d1a331f9e0'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '56930780722@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB01DD0D5A0FDAF28B229',
+    participant: undefined
+  },
+  messageTimestamp: 1699765322,
+  pushName: 'Luzalem',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '56930780722'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b69fe426-5c6f-43dc-9785-59a38451de97',
+  keyword: 'key_aa6cb33f-a153-461d-90d5-2cfbb7004e67',
+  answer: ' ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5dae1902fb3492d713a22c48065ea1fb'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '56930780722@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0F41F4A3399E019DBE3',
+    participant: undefined
+  },
+  messageTimestamp: 1699765391,
+  pushName: 'Luzalem',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '56930780722'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_b69fe426-5c6f-43dc-9785-59a38451de97',
+  keyword: 'key_aa6cb33f-a153-461d-90d5-2cfbb7004e67',
+  answer: ' ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5ec7909221c6ae064a654206c9013dba'
+}
