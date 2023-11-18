@@ -37,7 +37,7 @@ null,
 [flowSecundario]
 )
 
-const flow2 = addKeyword(['2']).addAnswer(' ', null, async (ctx, {flowDynamic}) => {
+const flow2 = addKeyword(['2']).addAnswer('Aquí tienes:', null, async (ctx, {flowDynamic}) => {
     let poems = [
         'frase 1',
         'frase 2',
