@@ -92,7 +92,7 @@ null,
 [flowSecundario]
 )
 
-const flowPrincipal = addKeyword(['hola','día','días','ola','alo','qué','tal', '?',  'esto','quién', 'quien', 'que','Hola','Wena','buen día','oli','holi','oye', '!'])
+const flowPrincipal = addKeyword(['hola','día','días','ola','alo','qué','tal','como','cómo','esto','quién','quien','que','Hola','Wena','buen día','oli','holi','oye'])
     .addAnswer(['*¡Hola! 🤖🙌 ¡Te damos la bienvenida a Poesía IA!*',,    
             '¿Qué quieres?',,
             '1️⃣  Jugar al Cadáver Exquisito Infinito',,
